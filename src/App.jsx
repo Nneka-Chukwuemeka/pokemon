@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import { Home } from './components/Home';
-import { PokemonProvider } from './context/context';
+import { PokemonProvider } from './context/Context.jsx';
 import Detail from './components/Detail';
 import { MyCards } from './components/MyCards';
 import Navbar from './components/Navbar';
