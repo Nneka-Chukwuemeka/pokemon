@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { usePokemonContext } from '../context/context';
+import { usePokemonContext } from '../context/Context.jsx';
 import PropTypes from 'prop-types';
 
 export default function Card({ pokemon, showActions = true }) {
