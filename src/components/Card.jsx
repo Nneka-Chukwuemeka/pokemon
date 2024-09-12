@@ -9,7 +9,7 @@ export default function Card({ pokemon, showActions = true }) {
 
 	if (!pokemon.sprites) {
 		return (
-			<div className="card bg-base-100 w-96 shadow-xl text-white">
+			<div className="card bg-base-100 w-full max-w-xs md:max-w-md shadow-xl text-white overflow-hidden">
 				<figure>
 					<p> no image</p>
 				</figure>
@@ -41,7 +41,7 @@ export default function Card({ pokemon, showActions = true }) {
 	}
 
 	return (
-		<div className="card bg-base-100 w-96 shadow-xl text-white">
+		<div className="card bg-base-100 w-full max-w-sm text-white">
 			<figure>
 				<img src={pokemon.sprites.front_default} alt={pokemon.name} />
 			</figure>

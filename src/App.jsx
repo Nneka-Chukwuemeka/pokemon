@@ -10,7 +10,7 @@ import Navbar from './components/Navbar';
 function App() {
 	return (
 		<PokemonProvider>
-			<div className="App ">
+			<div className="App flex flex-col ">
 				<Navbar />
 
 				<Routes>
