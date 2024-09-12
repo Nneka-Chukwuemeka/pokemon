@@ -1,5 +1,5 @@
 import Card from './Card';
-import { usePokemonContext } from '../context/context';
+import { usePokemonContext } from '../context/Context.jsx';
 import CardWrapper from './CardWrapper';
 
 export const MyCards = () => {
